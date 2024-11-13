@@ -1,6 +1,7 @@
 
-import AuthFooter from "@/components/auth/auth-footer";
-import { AuthNavbar } from "@/components/auth/auth-navbar";
+
+import { AuthFooter } from "@/features/auth/components/auth-footer";
+import { AuthNavbar } from "@/features/auth/components/auth-navbar";
 
 const AuthLayout = ({ children }: { children: React.ReactNode }) => {
   return (
